@@ -1,0 +1,35 @@
+.Note {
+  max-width: 90%;
+  width: 600px;
+  min-height: 400px;
+  color: black;
+  background: #F9F9F9;
+  box-shadow: #999 1px 1px 3px;
+  position: relative;
+  overflow: hidden
+}
+
+.Note__header {
+  background: #eee;
+  padding: 5px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Note__date {
+  font-size: 13px;
+  padding-left: 15px;
+  color: #71CBD0;
+  font-style: italic;
+}
+
+.Note__GoTrashcan:hover {
+  cursor: pointer;
+}
+
+.Note__content {
+  font-family: 'Source Code Pro', courier, monospace;
+  font-size: 15px;
+  padding: 1em;
+}
